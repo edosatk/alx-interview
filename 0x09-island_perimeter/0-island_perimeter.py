@@ -7,7 +7,6 @@ def island_perimeter(grid):
     """
      returns the perimeter of the island described in grid
     :param grid:
-    :return:
     """
     area = 0
     for row in grid + list(map(list, zip(*grid))):
